@@ -52,5 +52,8 @@ After analyzing the provided PCAP file, it was determined that this activity was
 4. **Restrict** file uploads on `upload.php`.
 5. **Change** all database and system passwords.
 
----
-*Report generated based on PCAP analysis.*
+## 📁 6. Provided Evidence
+The raw packet capture (PCAP) file analyzed for this report is available in this repository: 
+👉 [`BTLO-PortScan.pcap`](./BTLOPortScan.pcap)
+
+**Note:** To reproduce the analysis, open the PCAP file in Wireshark and use the filters mentioned in the "Technical Details" section above.
